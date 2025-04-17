@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./assets/img/roundimg.png" />
+  <link rel="stylesheet" href="./index.css" />
+  <link rel="icon" href="./img/port.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <title>Srilaxmanan-Portfolio</title>
+</head>
+
+<body>
+
+  <!--===== HEADER =====-->
+  <nav class="navbar">
+    <div class="logo">
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="loader3">
+  <g class="dash">
+    <path style="--sped: 4s;" pathLength="360" d="M 31.9463 1 C 15.6331 1 2.2692 13.6936 1 29.8237 L 17.644 36.7682 C 19.0539 35.794 20.7587 35.2264 22.5909 35.2264 C 22.7563 35.2264 22.9194 35.231 23.0803 35.2399 L 30.4828 24.412 L 30.4828 24.2601 C 30.4828 17.7446 35.7359 12.4423 42.1933 12.4423 C 48.6507 12.4423 53.9038 17.7446 53.9038 24.2601 C 53.9038 30.7756 48.6507 36.08 42.1933 36.08 C 42.104 36.08 42.0168 36.0778 41.9275 36.0755 L 31.3699 43.6747 C 31.3766 43.8155 31.3811 43.9562 31.3811 44.0947 C 31.3811 48.9881 27.4374 52.9675 22.5909 52.9675 C 18.3367 52.9675 14.7773 49.902 13.9729 45.8443 L 2.068 40.8772 C 5.7548 54.0311 17.7312 63.6748 31.9463 63.6748 C 49.0976 63.6748 63 49.6428 63 32.3374 C 63 15.0297 49.0976 1 31.9463 1 Z" class="big"></path>
+    <path pathLength="360" d="M 20.4603 48.5493 L 16.6461 46.9584 C 17.3209 48.3794 18.4917 49.5682 20.0447 50.2206 C 23.4007 51.6328 27.2707 50.0262 28.6694 46.6367 C 29.3464 44.9966 29.3509 43.1867 28.6806 41.5422 C 28.0103 39.8977 26.7434 38.6151 25.119 37.9315 C 23.5035 37.2544 21.7741 37.279 20.2547 37.8576 L 24.1961 39.5022 C 26.6719 40.5434 27.8427 43.4124 26.8104 45.9105 C 25.7803 48.4085 22.936 49.5905 20.4603 48.5493 Z" class="aaa"></path>
+    <path pathLength="360" d="M 49.9968 24.2603 C 49.9968 19.9188 46.4954 16.384 42.1943 16.384 C 37.8908 16.384 34.3894 19.9188 34.3894 24.2603 C 34.3894 28.6017 37.8908 32.1343 42.1943 32.1343 C 46.4954 32.1343 49.9968 28.6017 49.9968 24.2603 Z"></path>
+    <path pathLength="360" d="M 36.3446 24.2469 C 36.3446 20.9802 38.97 18.3324 42.2054 18.3324 C 45.4431 18.3324 48.0685 20.9802 48.0685 24.2469 C 48.0685 27.5135 45.4431 30.1613 42.2054 30.1613 C 38.97 30.1613 36.3446 27.5135 36.3446 24.2469 Z"></path>
+  </g>
+  <path pathLength="360" d="M 31.9463 1 C 15.6331 1 2.2692 13.6936 1 29.8237 L 17.644 36.7682 C 19.0539 35.794 20.7587 35.2264 22.5909 35.2264 C 22.7563 35.2264 22.9194 35.231 23.0803 35.2399 L 30.4828 24.412 L 30.4828 24.2601 C 30.4828 17.7446 35.7359 12.4423 42.1933 12.4423 C 48.6507 12.4423 53.9038 17.7446 53.9038 24.2601 C 53.9038 30.7756 48.6507 36.08 42.1933 36.08 C 42.104 36.08 42.0168 36.0778 41.9275 36.0755 L 31.3699 43.6747 C 31.3766 43.8155 31.3811 43.9562 31.3811 44.0947 C 31.3811 48.9881 27.4374 52.9675 22.5909 52.9675 C 18.3367 52.9675 14.7773 49.902 13.9729 45.8443 L 2.068 40.8772 C 5.7548 54.0311 17.7312 63.6748 31.9463 63.6748 C 49.0976 63.6748 63 49.6428 63 32.3374 C 63 15.0297 49.0976 1 31.9463 1 Z" fill="#212121"></path>
+  <path class="fill" pathLength="360" d="M 31.9463 1 C 15.6331 1 2.2692 13.6936 1 29.8237 L 17.644 36.7682 C 19.0539 35.794 20.7587 35.2264 22.5909 35.2264 C 22.7563 35.2264 22.9194 35.231 23.0803 35.2399 L 30.4828 24.412 L 30.4828 24.2601 C 30.4828 17.7446 35.7359 12.4423 42.1933 12.4423 C 48.6507 12.4423 53.9038 17.7446 53.9038 24.2601 C 53.9038 30.7756 48.6507 36.08 42.1933 36.08 C 42.104 36.08 42.0168 36.0778 41.9275 36.0755 L 31.3699 43.6747 C 31.3766 43.8155 31.3811 43.9562 31.3811 44.0947 C 31.3811 48.9881 27.4374 52.9675 22.5909 52.9675 C 18.3367 52.9675 14.7773 49.902 13.9729 45.8443 L 2.068 40.8772 C 5.7548 54.0311 17.7312 63.6748 31.9463 63.6748 C 49.0976 63.6748 63 49.6428 63 32.3374 C 63 15.0297 49.0976 1 31.9463 1 Z"></path>
+</svg>
+
+    </div>
+    <h1 class="head h1">Laxmanan -Portfolio</h1>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact">Skills</a>
+
+
+    </div>
+</nav>
+
+  <!-- header -->
+
+  <main class="l-main mt-1">
+    <!--===== HOME =====-->
+    <section class="home bd-grid section" id="home">
+      <div class="home-data">
+            <div class="mine float-md-end">
+              <img src="./img/laxman.jpg" class="me-5 rounded-5" >
+              </div>
+              <h2 class="home-title ms-3px">
+                Hy! I Am<br> <div class="card7">
+              <div class="loader ">
+              <p class="">Srilaxmanan </p>
+              <div class="words">
+                <span class="word">and </span>
+                <span class="word">Frontend webdeveloper </span>
+                <span class="word">And </span>
+                <span class="word">Aws Engineer </span>
+              </div>
+            </div>
+             <a href ="./img/SRI LAXMANAN2001.docx" ><button class="btn btn-outline-primary">Resume</button></a>
+       
+        </div>
+        </section>    
+
+
+
+
+
+        <div class="social1">
+      <div class="containerZ mb-5">
+      <div class="loader">
+      <span>S</span>
+      <span>O</span>
+      <span>c</span>
+      <span>i</span>
+      <span>a</span>
+      <span>l</span>
+      <span>L</span>
+      <span>i</span>
+      <span>n</span>
+      <span>k</span>
+      <span>s</span>
+
+      </div>
+     </div>         
+     <div class="main">
+      <div class="up">
+        <!-- Card 1: Instagram -->
+        <a href="https://www.instagram.com/sri_laxmanan/" target="_blank">
+
+        <button class="card1 instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0,0,256,256" width="30px" height="30px">
+            <g transform="scale(8,8)">
+              <path d="M11.46875,5c-3.55078,0 -6.46875,2.91406 -6.46875,6.46875v9.0625c0,3.55078 2.91406,6.46875 6.46875,6.46875h9.0625c3.55078,0 6.46875,-2.91406 6.46875,-6.46875v-9.0625c0,-3.55078 -2.91406,-6.46875 -6.46875,-6.46875zM11.46875,7h9.0625c2.47266,0 4.46875,1.99609 4.46875,4.46875v9.0625c0,2.47266 -1.99609,4.46875 -4.46875,4.46875h-9.0625c-2.47266,0 -4.46875,-1.99609 -4.46875,-4.46875v-9.0625c0,-2.47266 1.99609,-4.46875 4.46875,-4.46875zM21.90625,9.1875c-0.50391,0 -0.90625,0.40234 -0.90625,0.90625c0,0.50391 0.40234,0.90625 0.90625,0.90625c0.50391,0 0.90625,-0.40234 0.90625,-0.90625c0,-0.50391 -0.40234,-0.90625 -0.90625,-0.90625zM16,10c-3.30078,0 -6,2.69922 -6,6c0,3.30078 2.69922,6 6,6c3.30078,0 6,-2.69922 6,-6c0,-3.30078 -2.69922,-6 -6,-6zM16,12c2.22266,0 4,1.77734 4,4c0,2.22266 -1.77734,4 -4,4c-2.22266,0 -4,-1.77734 -4,-4c0,-2.22266 1.77734,-4 4,-4z"></path>
+            </g>
+          </svg>
+        </button></a>
+    
+        <!-- Card 2: GitHub -->
+        <a href="https://github.com/srilaxmanan" target="_blank">
+        <button class="card2 github">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30px" height="30px">
+            <path d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z"></path>
+            
+          </svg>
+        </button></a>
+      </div>
+    
+      <div class="down">
+        <!-- Card 3: LinkedIn -->
+        <a href="https://in.linkedin.com/in/srilaxmanan-s-88ab99345?original_referer=https%3A%2F%2Fwww.linkedin.com%2F" target="_blank" >
+        <button class="card3 linkedin">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 24 24">
+            <path d="M4.98 3.5C4.98 4.6 4.1 5.5 3 5.5S1 4.6 1 3.5 1.9 1.5 3 1.5 4.98 2.4 4.98 3.5zM5 8H1v15h4V8zm7.5 0h-3.6v15h4v-8.5c0-2.5 3-2.7 3 0V23h4V13.5c0-5.2-6-5-7.4-2.5V8z"/>
+          
+          </svg>
+        </button></a>
+    
+        <!-- Card 4: WhatsApp -->
+        <a href="https://wa.me/8940985978" target="_blank">
+        <button class="card4 whatsapp">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 32 32">
+            <path d="M16 0C7.164 0 0 6.648 0 14.844c0 3.098 1.199 5.918 3.199 8.145L0 32l9.195-2.992c2.059.559 4.188.844 6.383.844 8.84 0 16-6.645 16-14.844C32 6.648 24.84 0 16 0zm0 27.313c-2.027 0-3.984-.289-5.805-.848l-.418-.125-5.473 1.781 1.777-5.484-.27-.395c-1.824-2.367-2.777-5.164-2.777-8.098 0-7.563 6.484-13.719 14.445-13.719 7.961 0 14.445 6.156 14.445 13.719S23.961 27.313 16 27.313zm7.828-10.711c-.34-.172-2.016-1-2.328-1.113-.313-.117-.543-.172-.77.172s-.879 1.113-1.078 1.344c-.199.227-.395.258-.734.086-.34-.172-1.434-.531-2.73-1.703-1.008-.898-1.688-2-1.887-2.34-.195-.34-.02-.531.15-.703.156-.156.34-.398.512-.602.172-.199.227-.34.34-.566.113-.227.055-.43-.027-.602-.082-.172-.77-1.863-1.055-2.555-.277-.664-.559-.57-.77-.578-.199-.008-.43-.01-.656-.01s-.602.086-.918.43c-.313.34-1.195 1.164-1.195 2.844 0 1.68 1.223 3.305 1.391 3.531.172.227 2.402 3.672 5.824 5.148.813.352 1.445.562 1.938.719.813.258 1.555.223 2.141.133.652-.098 2.016-.824 2.301-1.621.285-.797.285-1.48.199-1.621-.086-.14-.313-.227-.652-.398z"/>
+            
+          </svg>
+        </button></a>
+      </div>
+    </div>
+          
+      </div>
+            
+      
+    
+
+    <!--===== ABOUT =====-->
+    <section class="about section" id="about">
+      <h2 class="section-title">About</h2>
+
+      <div class="about-container bd-grid">
+        <!-- <div class="about-img">
+            <img src="assets/img/Profile1.png" alt="" />
+          </div> -->
+
+        <div style="text-align: center">
+          <h2 class="about-subtitle">My Awesome Skills</h2>
+          <p class="about-text">
+            <div style="max-width: 800px; margin: auto; font-family: Arial, sans-serif; line-height: 1.8; text-align: justify; font-size: 16px; color: #333;">
+              <p>
+                 * I’m an enthusiastic and adaptable tech professional with a <strong>Diploma in Electrical and Electronics Engineering (EEE)</strong> and <strong>3 years of hands-on experience as a Power Plant Supervisor</strong> at <strong>Seshayee Paper Mill, Erode</strong>. My background in power plant operations has given me a solid foundation in industrial systems, leadership, and real-time problem-solving.
+              </p>
+          
+              <p>
+                 * Currently, I’m diving deep into the world of <strong>cloud computing and software development</strong>, focusing on <strong>AWS Cloud Engineering</strong> and <strong>Frontend Web Development</strong>. I’m passionate about building scalable cloud infrastructure and creating clean, user-friendly web interfaces. I'm continuously learning and upskilling to transition into the tech industry with a modern and innovative approach.
+              </p>
+          </div>
+          
+          </p>
+          <br />
+          <p>
+            Drop a mail @ srilaxmanans.com
+            <i style="color: #4070f4; font-size: 1.2rem; cursor: pointer" class="bx bx-copy" id="copy"></i>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--===== SKILLS =====-->
+    <section class="skills section" id="skills">
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skills-container bd-grid">
+        <div>
+          <h2 class="skills-subtitle">Front-end Skills</h2>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="bx bxl-html5 skills-icon"></i>
+              <span class="skills-name">HTML5</span>
+            </div>
+            <!-- <div class="skills-bar skills-html"></div>
+            <div>
+                <span class="skills-percentage">75%</span>
+              </div> -->
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="bx bxl-css3 skills-icon"></i>
+              <span class="skills-name">CSS3</span>
+            </div>
+            <!-- <div class="skills-bar skills-css"></div> -->
+            <!-- <div>
+                <span class="skills-percentage">70%</span>
+              </div> -->
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="bx bxl-javascript skills-icon"></i>
+              <span class="skills-name">JAVASCRIPT</span>
+            </div>
+            <!-- <div class="skills-bar skills-js"></div> -->
+            <!-- <div>
+                <span class="skills-percentage">85%</span>
+              </div> -->
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="bx bxl-bootstrap skills-icon"></i>
+              <span class="skills-name">Bootstrap</span>
+            </div>
+            <!-- <div class="skills-bar skills-react"></div> -->
+            <!-- <div>
+                <span class="skills-percentage">80%</span>
+              </div> -->
+          </div>
+          <!-- <h2 class="skills-subtitle">Back-end Skills</h2>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="bx bxl-react skills-icon"></i>
+              <span class="skills-name">Node -js</span>
+            </div>
+                    </div>
+
+
+          
+        </div> -->
+
+
+        <div>
+          <h2 class="skills-subtitle">AWS</h2>
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon" src="./assets/img/express.png" alt="" />
+              <span class="skills-name">Cloud -Engineer L1</span>
+            </div>
+           
+    </section>
+
+
+
+    <!--===== EDUCATION =====-->
+    <section class="education section" id="education">
+      <h2 class="section-title">Education</h2>
+    
+      <div class="education-container">
+        <div class="education-item radio-anim" data-sr>
+          <h3 class="edu-degree">SSLC</h3>
+          <span class="edu-institute">CSI Boys Higher Secondary School, Erode</span>
+          <span class="edu-year">2015 - 2016</span>
+          <span class="edu-score">Scored: 60.4%</span>
+          <p class="edu-description">
+            Built foundational knowledge in mathematics, science, and English. Involved in quiz clubs and school events.
+          </p>
+        </div>
+    
+        <div class="education-item radio-anim" data-sr>
+          <h3 class="edu-degree">Diploma in EEE</h3>
+          <span class="edu-institute">Sir Raghavendra Polytechnic College, Kumarapalayam</span>
+          <span class="edu-year">2018 - 2021</span>
+          <span class="edu-score">Scored: 80%</span>
+          <p class="edu-description">
+            Gained practical knowledge in electronics, electrical machines, and circuit analysis. Completed mini projects and workshops.
+          </p>
+        </div>
+    
+        <div class="education-item radio-anim" data-sr>
+          <h3 class="edu-degree">AWS & Front-End Web Development</h3>
+          <span class="edu-institute">SDLC Erode Institute</span>
+          <span class="edu-year">2025</span>
+          <p class="edu-description">
+            Trained in modern front-end frameworks and AWS tools including React, EC2, Lambda, S3. Hands-on cloud deployment & UI design.
+            <br>
+          </p>
+        </div>
+      </div>
+    </section>
+    
+
+    <!--===== Projects =====-->
+    <section class="projects section" id="projects">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="project-container">
+        <div class="project-img">
+          <img src="./img/y.jpg" alt="MiniShopping" class="primg img-fluid">
+          <p class="project-title" style="color: brown;">Your Kart</p>
+          <p class="project-subtitle">
+            This HTML code represents a basic e-commerce website called "YOURKART," featuring a structured layout with a responsive navigation bar, promotional main banner, and sections for featured and general products. It includes external stylesheets and Boxicons for visual enhancement, along with social media links in the footer for user engagement. The design is optimized for both desktop and mobile views, with organized product categories and clear call-to-action buttons to encourage shopping.
+             <br />
+            <!-- <br />
+              A collaborative project, built in 5 days by a team of 4 developers
+              and 2 UI/UX designers. <br /> -->
+            <br /> <cite style="color: red; font-style: unset;font-weight: 550;">HTML | CSS</cite>
+          </p>
+          <div class="project-btns">
+            <a href="https://github.com/srilaxmanan/ecommerce" target="_blank" class="small-btn button">
+              Code<i class="bx bxl-github"></i>
+            </a>
+            <a href="https://srilaxmanan.github.io/ecommerce/" target="_blank" class="small-btn button">
+              Live<i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-img">
+          <img src="./img/p.jpg" alt="MiniShopping" class="primg img-fluid">
+          <p class="project-title" style="color: brown;">ECO-Papers</p>
+          <p class="project-subtitle">
+            This HTML code represents a website for **"ECO PAPER,"** a platform focused on eco-friendly paper products. It features a responsive navbar with a brand logo, a login dropdown form, and navigation links to different sections like Machines, Plants, and Boilers. The site includes animated cards showcasing products, a carousel slider for plant overviews, and founder profiles with detailed cards. Additionally, it has a footer with quick links, legal information, a newsletter subscription form, and social media icons for broader engagement. The design leverages Bootstrap for responsiveness, AOS for animations, and Boxicons for icons. <br />
+            <cite style="color: red; font-style: unset;font-weight: 550;">HTML | CSS | Bootstrap| Java Script  </cite>
+          </p>
+          <div class="project-btns">
+            <a href="https://github.com/srilaxmanan/Paper-Company" target="_blank" class="small-btn button">
+              Code<i class="bx bxl-github"></i>
+            </a>
+            <a href="https://srilaxmanan.github.io/Paper-Company/" target="_blank" class="small-btn button">
+              Live<i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-img">
+          <img src="./img/an.jpg" alt="MiniShopping" class="primg img-fluid">
+          <p class="project-title" style="color: brown;">Animi Clothing</p>
+          <p class="project-subtitle">
+            This HTML code outlines the structure of **"Animi Mens"**, an online clothing brand website that emphasizes fashion, style, and customer engagement. It features a responsive navbar with links to Home, About, and Contact pages, alongside an off-canvas cart for managing orders. The products section displays items dynamically, and a modal confirms order placements. The About section highlights the brand's commitment to quality and sustainable fashion, while the contact form facilitates customer communication. The footer offers quick access to social media channels like Facebook, Instagram, and Twitter, promoting broader brand interaction.<!-- <br />
+              A collaborative project built by a team of 6, executed in 5 days.
+              <br /> -->
+            <br />
+            <cite style="color: red; font-style: unset;font-weight: 550;">HTML | CSS | Bootstrap </cite>
+          </p>
+          <div class="project-btns">
+            <a href="https://github.com/srilaxmanan/Animi-Clothing-Brand" target="_blank" class="small-btn button">
+              Code<i class="bx bxl-github"></i>
+            </a>
+            <a href="https://srilaxmanan.github.io/Animi-Clothing-Brand/" target="_blank" class="small-btn button">
+              Live<i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-img">
+          <img src="./img/gt.jpg" alt="MiniShopping" class="primg img-fluid">
+          <p class="project-title" style="color: brown;">Gt Holidays - Clone</p>
+          <p class="project-subtitle">
+            **GT Holidays - Your Gateway to Unforgettable Journeys**  
+
+            Welcome to **GT Holidays** – your ultimate travel companion for unforgettable adventures! 🌍✈️ Explore dreamy destinations, personalized packages, and glowing reviews, all with a seamless booking experience. From beach getaways to mountain escapes, we make every journey easy, exciting, and truly memorable.<br />
+            <cite style="color: red; font-style: unset;font-weight: 550;">  HTML | CSS | Javascript | Bootstrap </cite>
+           
+          </p>
+          <div class="project-btns">
+            <a href="https://github.com/srilaxmanan/Gt-holidays-clone-" target="_blank" class="small-btn button">
+              Code<i class="bx bxl-github"></i>
+            </a>
+            <a href="https://srilaxmanan.github.io/Gt-holidays-clone-/" target="_blank" class="small-btn button">
+              Live<i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+
+         
+      </div>
+    </section>
+
+    <!--===== CONTACT =====-->
+    <section class="contact section" id="contact">
+      <h2 class="section-title">Contact</h2>
+
+      <div class="contact-container bd-grid">
+        <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="f0367e81-a9b2-4b60-bd64-52242be38b1c">
+          <input type="text" placeholder="Name" class="contact-input" name="Name : " />
+          <input type="mail" placeholder="Email" class="contact-input" name="Email : "/>
+          <textarea name="" id="" cols="0" rows="5" class="contact-input" name="Message : "></textarea>
+          <input type="submit" value="Contact" class="contact-button button" />
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!--===== FOOTER + CONTACT=====-->
+  <footer class="footer section" id="contact">
+    <h2 class="section-title">Get in touch</h2>
+    <p class="footer-title">Srilaxmanan</p>
+    <div class="footer-social">
+      <a href="https://in.linkedin.com/in/srilaxmanan-s-88ab99345?original_referer=https%3A%2F%2Fwww.linkedin.com%2F" target="_blank" class="footer-icon"><i
+          class="bx bxl-linkedin">
+          <br />
+          LinkedIn</i></a>
+      <a href="https://www.instagram.com/sri_laxmanan/" target="_blank" class="footer-icon"><i
+          class="bx bxl-instagram">
+          <br />
+          Instagram</i></a>
+      <a href="srilaxmanans@gmail.com" target="_blank" class="footer-icon"><i
+          class="bx bx-mail-send">
+          <br />
+          E-mail</i></a>
+      <a href="tel:+918940985978" target="_blank" class="footer-icon"><i class="bx bx-phone">
+          <br />
+          Phone</i></a>
+    </div>
+    <p>&#169; 2024 copyright all right reserved</p>
+    
+  </footer>
+
+  <!--===== MAIN JS =====-->
+  <script src="./index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+
+</html>
